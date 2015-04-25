@@ -1,6 +1,10 @@
 # AvenuePlaza
 Computer Basics Course | Avenue Plaza Residence
 
+Note: This project will also be best served with the foundation
+of Best Practices and Responsive Design, including but not limited
+to maintaining code and updates.  
+
 To create a user friendly modules that can aid in teaching
 residence the basics of computer software, hardware and internet.
 Stepping stone to Cloud Computing.  Internet based instructions, 
