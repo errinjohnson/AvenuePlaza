@@ -1,0 +1,66 @@
+/*****************************************
+                    Pantry App
+*******************************************/
+
+body {
+    /*background: url("../img/oldpaper.png") no-repeat center;*/
+
+    background-color: #21E0A4;
+    /*note: font-family did not scope to button*/
+
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Swanky and Moo Moo', sans-serif;
+}
+
+div#logo {
+    margin: 10px 0;
+    max-width: 100px;
+}
+
+div#tree {
+    float: right;
+    max-width: 75px;
+}
+
+h1,
+h2,
+h3 {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+/****
+ flex-grow not responding??
+div.flex {
+    -webkit-display: flex;
+    display: flex;
+}
+div.flex:nth-child(even) {
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+}**/
+
+.button {
+    margin: 0;
+    padding: 10px 0 10px;
+}
+/******************
+ Table Properties
+********************/
+
+table {
+    margin: 0 auto;
+    border: 5px solid teal;
+    border-radius: 10px;
+}
+
+th {
+    border: 5px solid teal;
+}
+
+td {
+    border: 2px solid tomato;
+}
+/*# sourceMappingURL=myApp.css.map */

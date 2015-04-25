@@ -1,0 +1,30 @@
+//Place Holders for refactoring scss
+//%nameofplaceholder { add declartion here };
+%centered {
+    text-align: center;
+}
+
+%clearfix {
+    &:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+}
+
+%pseudos {
+    position: absolute;
+    content: '';
+}
+
+//screen reader text
+.srt {
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    position: absolute;
+}
