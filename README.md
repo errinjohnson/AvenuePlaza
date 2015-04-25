@@ -1,5 +1,7 @@
 # AvenuePlaza
-Computer Basics Course | Avenue Plaza Residence
+Computer Basics Course | Avenue Plaza Residence!
+
+See Wiki Pages for Collorbrating and Brainstorming: https://github.com/errinjohnson/AvenuePlaza/wiki
 
 Note: This project will also be best served with the foundation
 of Best Practices and Responsive Design, including but not limited
