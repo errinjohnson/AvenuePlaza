@@ -120,8 +120,8 @@ div.logo {
     Avenue Plaza Page
 **********************/
 
-div.iframe {
+iframe {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 500px;
     @extend %centered;
 }
