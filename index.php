@@ -1,76 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avenue Plaza Page</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
-    <script src="js/vendor/modernizr.js"></script>
-    <link rel="stylesheet" href="animsition-master/dist/css/animsition.min.css">
-    <link rel="stylesheet" href="myCss/application.css" />
-</head>
+<?php 
+    $pageTitle = "Avenue Plaza | Computer Course"; 
+include("inc/head.php"); ?>
 
 <body class="animsition">
-    <div class="row">
-        <header class="medium-12 columns">
-            <h2>Connect the dots ººº Technology!</h2>
-            <h3 class="right">"I believe if we could master improving, there would be no poverty" ~Errin</h3>
-
-            <div class="logo">
-                <a href="img/Logo1.png"><img src="img/Logo1.png" alt="Alchemy Momentum's Logo">
-                </a>
-            </div>
-        </header>
-    </div>
-    <!-- Top Bar-->
-    <!--title -->
-    <div class="contain-to-grid fixed">
-        <nav class="top-bar" data-topbar role="navigation">
-           <ul class="title-area">
-                <li class="name">
-                    <h1><a class="active" href="http://www.alchemymomentum.com/">Alchemy Momentum</a></h1> </li>
-                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
-                </li>
-            </ul>
-            <section class="top-bar-section">
-                <!-- Right Nav Section -->
-                <ul class="right">
-                    <li><a href="about-contact.html">About | Contact</a>
-                    </li>
-                    <li class="has-dropdown"> <a href="index.html">Avenue Plaza</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Class Module</a>
-                            </li>
-                            <li>
-                                <a href="#">Class Module</a>
-                            </li>
-                            <li>
-                                <a href="#">Class Module</a>
-                            </li>
-                            <li>
-                                <a href="#">Class Module</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Left Nav Section -->
-                <ul class="left">
-                    <li class="has-form">
-                        <div class="row collapse">
-                            <div class="medium-8 small-9 columns">
-                                <input type="search" placeholder="This website!"> </div>
-                            <div class="medium-4 small-3 columns"> <a href="#" class="button expand">Search</a> </div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </nav>
-    </div>
-    <!--End Top Bar -->
-
+    <?php include("inc/header.php"); ?>
     <!-- Headline Content -->
     <div class="row">
         <div class="panel">
@@ -225,40 +161,11 @@
         <iframe src="https://www.google.com/calendar/embed?src=im5ftp0ur3oqd5bsp8sqqg2mf0%40group.calendar.google.com&amp;ctz=America/New_York"></iframe>
     </div>
     <!-- End Content-->
-    <footer id="panel2" class="panel">
-        <div>
-            <div class="row">
-                <ul class="title-area medium-12 columns">
-                    <li>
-                        <h4 class="copyright">Responsive Web Design   | &copy;2015 Alchemy Momentum
-                        </h4>
-                    </li>
-                    <li>
-                        <a href="http://www.juiceplus.com/+ej70269"><img src="img/jplogo.jpg" alt="Juice Plus +" />
-                            <h4>Juice Plus + ® Provides the nutritional essence of 17 different fruits, vegetables and grains in a convenient capsule form. Click here to learn more.</h4>
-                        </a>
-                    </li>
-                    <li><a href="#" data-reveal-id="volunteerModal" class="radius button">Volunteers&hellip;</a>
-                        <p class="git">this project by <a href="https://github.com/errinjohnson ">errinjohnson</a> can be found on <a href="https://github.com/errinjohnson/AvenuePlaza">GitHub</a>
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation/foundation.dropdown.js"></script>
-    <script src="js/foundation/foundation.topbar.js"></script>
-    <script src="js/foundation/foundation.reveal.js"></script>
-    <script src="animsition-master/dist/js/jquery.animsition.min.js"></script>
-    <script src="js/myJs.js"></script>
-
-    <script>
-        $(document).foundation();
-    </script>
+    <?php 
+        include("inc/footer.php");
+        include("inc/script.php");
+        ?>
+   
 </body>
 
 
