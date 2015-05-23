@@ -1,0 +1,34 @@
+ul li {
+    list-style: none;
+}
+
+.panel {
+    margin: 0 auto;
+    border: 5px solid $border-color;
+    border-radius: em(20px);
+    background-color: transparent;
+    -webkit-box-shadow: $color-shadow;
+    -moz-box-shadow: $color-shadow;
+    box-shadow: $color-shadow;
+    @extend %centered;
+}
+
+#fifthModal {
+    background-image: url(#{$path-img}/firefox.jpg);
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.reveal-modal {
+    background-color: $PearlBush;
+    color: $color-text-base;
+}
+
+.button-group {
+    display: inline-block;
+}
+
+.top-bar {
+    min-height: em(30px);
+}

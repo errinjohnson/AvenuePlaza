@@ -1,0 +1,23 @@
+// Import if Google Fonts URL is defined
+@if variable-exists(font-url--google) {
+    @import url($font-url--google );
+}
+
+body {
+    font-family: $stack-Arvo;
+}
+
+header h2,
+header h3,
+footer h4,
+p.git {
+    font-size: em(48px);
+    font-family: $stack-Tangerine;
+}
+
+header h2,
+header h3 {
+    border: em(2.5px) solid $PearlBush;
+    border-radius: em(2.5px);
+    background-color: $Cameo;
+}

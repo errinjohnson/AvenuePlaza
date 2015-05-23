@@ -1,0 +1,16 @@
+header {
+    margin-top: em(35px);
+    min-height: auto;
+    border-radius: em(20px);
+    background: url(#{$path-img}/MachuPicchi2.jpg);
+    background-size: cover;
+    -webkit-filter: drop-shadow($color-shadow);
+    filter: drop-shadow($color-shadow);
+    @extend %centered;
+}
+
+header h1,
+header h2,
+header h3 {
+    color: $Amethyst;
+}

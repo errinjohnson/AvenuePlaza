@@ -1,0 +1,127 @@
+// _ui.scss
+.icn-toggle {
+    position: relative;
+    display: inline-block;
+    width: em(24px);
+    height: em(12px);
+    border-top: solid em(5px) #60666c;
+}
+
+html,
+body {
+    background: $color-blend;
+    background-size: cover;
+    background-repeat: repeat;
+    }
+
+//OverLay for images use class.logo in div  background: linear-gradient(45deg, $Amethyst, transparent 100%), url(../img/Machu_Picchu.jpg);
+div.logo {
+    width: 25%;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#overlay img {
+    margin-top: 1.5%;
+    @extend %centered;
+}
+
+#overlay p {
+    color: white;
+}
+/*********************
+    About | Contact Page
+**********************/
+
+#contact-info {
+    margin: 0 auto;
+}
+
+#mail,
+#tel,
+#twitter {
+    display: inline-block;
+    margin: 0 auto;
+    padding: em(10px);
+    color: $color-text-dark;
+}
+
+#about-info {
+    color: $color-text-base;
+    @extend %centered;
+}
+/*********************
+    Portfolio Pages
+**********************/
+.slick-slide {
+    min-height: 350px;
+    }
+.slick-slide img {
+    margin: 0 auto;
+    width: 100%;
+    max-height: em(350px);
+}
+/*Grid*/
+.grid-full {
+  width: 100%;
+  float: left;
+}
+.grid-half {
+  width: 50%;
+  float: left;
+}
+.grid-third {
+  width: 27.33333%;
+  margin: 0 3%;
+  float: left;
+}
+.grid-fourth {
+  width: 25%;
+  float: left;
+}
+.grid-fifth {
+  width: 20%;
+  float: left;
+}
+#desc {
+    margin: em(10px);
+    padding: em(10px);
+    font-size: em(18px);
+}
+.lightbox {
+    background: rgba(1,1,1, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+
+.lightbox img {
+    width: em(700px);
+    height: em(450px);
+    margin-top: 10%;
+}
+
+.lightbox p {
+    color: cornsilk;
+}
+/* ********************
+    Avenue Plaza Page
+**********************/
+
+iframe {
+    margin: 0 auto;
+    max-width: 500px;
+    @extend %centered;
+}
