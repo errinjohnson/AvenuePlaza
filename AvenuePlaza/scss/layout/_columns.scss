@@ -1,0 +1,13 @@
+.flex-container {
+    -webkit-display: flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    min-height: 100px;
+    background-color: bisque;
+}
+.flex-b {
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+}
