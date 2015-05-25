@@ -22,7 +22,7 @@
             <section class="top-bar-section">
                 <!-- Right Nav Section -->
                 <ul class="right">
-                    <li><a href="about-contact.php">About | Contact</a>
+                    <li><a href="../contact.php">About | Contact</a>
                     </li>
                     <li class="has-dropdown"> <a href="index.php">Avenue Plaza</a>
                         <ul class="dropdown">
