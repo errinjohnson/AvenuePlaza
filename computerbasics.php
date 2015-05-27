@@ -16,24 +16,24 @@
 
         </div>
     </div>
-    <div>
+    <div class="main-modal">
          <!-- Begin Video Modal -->
-    <div id="vidModal" class="reveal-modal" data-reveal>
-        <h3>What is a computer?</h3>
-        <div>
-            <iframe src="https://www.youtube.com/embed/7cXEOWAStq4?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+        <div id="vidModal" class="reveal-modal" data-reveal>
+            <h3>What is a computer?</h3>
+            <div>
+                <iframe src="https://www.youtube.com/embed/7cXEOWAStq4?feature=player_embedded" allowfullscreen></iframe>
+            </div>
+            <a class="close-reveal-modal">&#215;</a>
         </div>
-        <a class="close-reveal-modal">&#215;</a>
-    </div>
-     <div id="vid2Modal" class="reveal-modal" data-reveal>
-        <h3>Operating Systems</h3>
-        <div>
-            <iframe src="https://www.youtube.com/embed/pTdSs8kQqSA?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+         <div id="vid2Modal" class="reveal-modal" data-reveal>
+            <h3>Operating Systems</h3>
+            <div>
+                <iframe src="https://www.youtube.com/embed/pTdSs8kQqSA?feature=player_embedded" allowfullscreen></iframe>
+            </div>
+            <a class="close-reveal-modal">&#215;</a>
         </div>
-        <a class="close-reveal-modal">&#215;</a>
-    </div>
-    <!-- Reveal Modals end -->
-    </div>
+        <!-- Reveal Modals end -->
+  </div>
 <?php 
     include("inc/footer.php");
     include("inc/script.php");
