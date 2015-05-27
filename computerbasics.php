@@ -20,15 +20,15 @@
          <!-- Begin Video Modal -->
     <div id="vidModal" class="reveal-modal" data-reveal>
         <h3>What is a computer?</h3>
-        <div class="flex-video widescreen">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/7cXEOWAStq4?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+        <div>
+            <iframe src="https://www.youtube.com/embed/7cXEOWAStq4?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
         </div>
         <a class="close-reveal-modal">&#215;</a>
     </div>
      <div id="vid2Modal" class="reveal-modal" data-reveal>
         <h3>Operating Systems</h3>
-        <div class="flex-video widescreen">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/pTdSs8kQqSA?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+        <div>
+            <iframe src="https://www.youtube.com/embed/pTdSs8kQqSA?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
         </div>
         <a class="close-reveal-modal">&#215;</a>
     </div>
