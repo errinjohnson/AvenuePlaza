@@ -1,19 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<?php
-     $pageTitle = "Course Modules"; 
-    include("inc/head.php"); ?>
-<body class="animsition">
-    <?php include("inc/header.php"); ?>
-      <div>
-        <div id="reveal">
-            <!-- Triggers the modals -->
-            <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Computer Basics Video&hellip;</a>
-            <a href="#" data-reveal-id="vid2Modal" class="radius button medium-6 columns">Operating Systems Video&hellip;</a>
-            <a href="#" data-reveal-id="courseModal" class="radius button medium-6 columns">Placement Holder&hellip;</a>
-            <a href="#" data-reveal-id="listPrint" class="radius button medium-6 columns">Placement Holder&hellip;</a>
+<?php $pageTitle="Course Modules" ; include( "inc/head.php"); ?>
 
+<body class="animsition">
+    <?php include( "inc/header.php"); ?>
+
+        <?php include( "inc/footer.php"); include( "inc/script.php"); ?>
+</body>
+
+<<<<<<< HEAD
         </div>
     </div>
     <div>
@@ -39,5 +35,9 @@
     include("inc/script.php");
 ?>  
 </body> 
+=======
+>>>>>>> 1f777fbf7c1c9ce80a84926dc7068d5ed46e49b0
 </html>
-    
+
+
+

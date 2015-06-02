@@ -1,12 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<?php 
-    $pageTitle = "Avenue Plaza | Computer Course"; 
-include("inc/head.php"); ?>
+<?php $pageTitle="Avenue Plaza | Computer Course" ; include( "inc/head.php"); ?>
 
 <body class="animsition">
-    <?php include("inc/header.php"); ?>
+    <?php include( "inc/header.php"); ?>
     <!-- Headline Content -->
     <div class="row">
         <div class="panel">
@@ -25,7 +23,7 @@ include("inc/head.php"); ?>
         <div id="reveal">
             <!-- Triggers the modals -->
             <a href="#" data-reveal-id="firstModal" class="radius button medium-6 columns">Computer Basics Class&hellip;</a>
-            <a href="#" data-reveal-id="courseModal" class="radius button medium-6 columns">Course Syllabus&hellip;</a>
+            <a href="#" data-reveal-id="courseModal" class="radius button medium-6 columns">Course Syllabus Beginner&hellip;</a>
             <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Tree House Video Demo&hellip;</a>
             <a href="#" data-reveal-id="listPrint" class="radius button medium-6 columns">Course List&hellip;</a>
 
@@ -92,16 +90,246 @@ include("inc/head.php"); ?>
         <a class="close-reveal-modal" aria-lable="Close">&#215;</a>
     </div>
     <!-- End Computer Basic Modal -->
-
     <!-- Begin Course Modal-->
+    <!--hardward Begin-->
 
-<div id="courseModal" class="reveal-modal" data-reveal aria-labelledby="courseModallTitle" aria-hidden="true" role="dialog">
-  <h2 id="courseModalTitle">Syllabus Begin</h2>
-  <p class="lead">Your couch.  It is mine.</p>
-  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    <div id="courseModal" class="reveal-modal" data-reveal aria-labelledby="courseModallTitle" aria-hidden="true" role="dialog">
+         <?php
+    $courseH=[
+    "hardware"=>"Hardware Basics",
+    "topics"=> "Mouse, Keyboard, PC | Notebook, Display",
+    "level" => "beginner",
+    "medium" => "in-class video | handouts",
+    "equipment"=> "in-class computers",
+    "classSize" => 2,
+    "supplies" => "pens, paper and folders"
+    ];
+    $topics = [
+        "input_1" => "Mouse",
+        "input_2" => "Keyboard",
+        "output_1" => "Printer",
+        "output_2" => "Monitor",
+        "computer" => "Personal Computer(PC)",
+        "computer2" => "Laptop"
+    ]
+?>
+<i class="fi-anchor" id="fi-anchor">for next modal syllabus.</i>
+<h2 id="courseModalTitle"><?php echo $courseH["hardware"]; ?></h2>
+
+<div class="row">
+    <h3>Topics:</h3>
+    <table id="paneltable">
+        <tr>
+            <th>Input Devices:</th>
+            <td>
+                <?php echo $topics[ "input_1"] . " |"; ?>
+            </td>
+            <td>
+                <?php echo $topics[ "input_2"]; ?>
+            </td>
+        </tr>
+        <tr>
+            <th>Output Devices:</th>
+            <td>
+                <?php echo $topics[ "output_1"] . " |"; ?>
+            </td>
+            <td>
+                <?php echo $topics[ "output_2"]; ?>
+            </td </tr>
+            <tr>
+                <th>Computers:</th>
+                <td>
+                    <?php echo $topics[ "computer"] . " |"; ?>
+                </td>
+                <td>
+                    <?php echo $topics[ "computer2"]; ?>
+                </td>
+            </tr>
+    </table>
 </div>
+<div class="row">
+    <h3>Course Specifications:</h3>
+    <table id="paneltable">
+        <tr>
+            <th>Skill Level:</th>
+            <td>
+                <?php echo $courseH[ "level"]; ?>
+            </td>
+        </tr>
+        <tr>
+            <th>Medium:</th>
+            <td>
+                <?php echo $courseH[ "medium"];?>
+            </td>
+        </tr>
+        <tr>
+            <th>Equipment:</th>
+            <td>
+                <?php echo $courseH[ "equipment"];?>
+            </td>
+        </tr>
+        <tr>
+            <th>Class Size:</th>
+            <td>
+                <?php echo $courseH[ "classSize"];?>
+            </td>
+        </tr>
+        <tr>
+            <th>Supplies | Students:</th>
+            <td>
+                <?php echo $courseH[ "supplies"];?>
+            </td>
+        </tr>
+    </table>
+</div>
+        <p><a href="#" data-reveal-id="course_2_Modal" class="secondary button"><i class="fi-anchor">Software&hellip;</i></a>
+        </p>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+ </div>
+    <!--Hardware End!-->
+    <!--Software Begin!-->
+    <div id="course_2_Modal" class="reveal-modal" data-reveal aria-labelledby="courseModallTitle2" aria-hidden="true" role="dialog">
+        <i class="fi-anchor">for next modal syllabus.</i>
+        <h2 id="courseModalTitle2">Software Basics</h2>
+                <?php $course=[ "software"=> "Windows 7 Basics", "level" => "beginner", "medium" => "in-class video | handouts", "topics"=>"What is an operating system?, Security and Maintenance Finding Your Files with Search and Libraries", "equipment" => "in-class computers", "classSize" => 2, "supplies" => "pens, paper and folders" ]; ?>
+        <div class="row wrapper">
+            <h2><?php echo $course["software"];?></h2>
+            <h3>We will be covering the following topics:</h3>
+            <h3><?php echo $course["topics"]; ?></h3>
 
+            <table id="paneltable">
+                <tr>
+                    <th>Skill Level:</th>
+                    <td>
+                        <?php echo $course[ "level"]; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Medium:</th>
+                    <td>
+                        <?php echo $course[ "medium"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Equipment:</th>
+                    <td>
+                        <?php echo $course[ "equipment"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Class Size:</th>
+                    <td>
+                        <?php echo $course[ "classSize"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Supplies | Students:</th>
+                    <td>
+                        <?php echo $course[ "supplies"];?>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p><a href="#" data-reveal-id="course_3_Modal" class="secondary button"><i class="fi-anchor">Internet&hellip;</i></a>
+        </p>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+     <!--Software End!-->
+    <!--Internet Begin!-->
+    <div id="course_3_Modal" class="reveal-modal" data-reveal aria-labelledby="courseModallTitle3" aria-hidden="true" role="dialog">
+        <h2 id="courseModalTitle3">Software Basics</h2>
+        <p class="lead"><i class="fi-anchor">for next modal syllabus.</i>
+        </p>
+        <?php $course=[ "hardware"=> "Mouse, Keyboard, PC | Notebook, Display", "level" => "beginner", "medium" => "in-class video | handouts", "equipment" => "in-class computers", "classSize" => 2, "supplies" => "pens, paper and folders" ]; ?>
+        <div class="row">
+            <h3>We will be covering the following topics:</h3>
+            <h3><?php echo $course["hardware"]; ?></h3>
+
+            <table id="paneltable">
+                <tr>
+                    <th>Skill Level:</th>
+                    <td>
+                        <?php echo $course[ "level"]; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Medium:</th>
+                    <td>
+                        <?php echo $course[ "medium"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Equipment:</th>
+                    <td>
+                        <?php echo $course[ "equipment"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Class Size:</th>
+                    <td>
+                        <?php echo $course[ "classSize"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Supplies | Students:</th>
+                    <td>
+                        <?php echo $course[ "supplies"];?>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p><a href="#" data-reveal-id="course_4_Modal" class="secondary button"><i class="fi-anchor">MS Office&hellip;</i></a>
+        </p>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+     <!--Internet End!-->
+    <!--MS office Begin!-->
+    <div id="course_4_Modal" class="reveal-modal" data-reveal aria-labelledby="courseModallTitle4" aria-hidden="true" role="dialog">
+        <h2 id="courseModalTitle4">Software Basics</h2>
+        <p class="lead"><i class="fi-anchor">for next modal syllabus.</i>
+        </p>
+        <?php $course=[ "hardware"=> "Mouse, Keyboard, PC | Notebook, Display", "level" => "beginner", "medium" => "in-class video | handouts", "equipment" => "in-class computers", "classSize" => 2, "supplies" => "pens, paper and folders" ]; ?>
+        <div class="row wrapper">
+            <h3>We will be covering the following topics:</h3>
+            <h3><?php echo $course["hardware"]; ?></h3>
+
+            <table id="paneltable">
+                <tr>
+                    <th>Skill Level:</th>
+                    <td>
+                        <?php echo $course[ "level"]; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Medium:</th>
+                    <td>
+                        <?php echo $course[ "medium"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Equipment:</th>
+                    <td>
+                        <?php echo $course[ "equipment"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Class Size:</th>
+                    <td>
+                        <?php echo $course[ "classSize"];?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Supplies | Students:</th>
+                    <td>
+                        <?php echo $course[ "supplies"];?>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </p>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+    <!--MS Office end!-->
     <!-- End Course Modal-->
 
     <!-- listModal-->
@@ -139,7 +367,7 @@ include("inc/head.php"); ?>
 
         </ul>
 
-        <p><a href="#" data-reveal-id="course2Modal" class="secondary button"><i class="fi-anchor"></i></a>
+        <p><a href="#" data-reveal-id="extraModal" class="secondary button"><i class="fi-anchor"></i></a>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
     </div>
     <!-- End volunteer Modal-->
@@ -157,15 +385,12 @@ include("inc/head.php"); ?>
     <!-- End Headline Content -->
     <!-- Content-->
     <div class="row"></div>
-    <div class="panel center">
-        <iframe src="https://www.google.com/calendar/embed?src=im5ftp0ur3oqd5bsp8sqqg2mf0%40group.calendar.google.com&amp;ctz=America/New_York"></iframe>
+    <div id="calendar" class="panel">
+       <iframe src="https://www.google.com/calendar/embed?src=im5ftp0ur3oqd5bsp8sqqg2mf0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
     <!-- End Content-->
-    <?php 
-        include("inc/footer.php");
-        include("inc/script.php");
-        ?>
-   
+    <?php include( "inc/footer.php"); include( "inc/script.php"); ?>
+
 </body>
 
 

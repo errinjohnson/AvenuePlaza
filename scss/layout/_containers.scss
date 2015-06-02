@@ -1,3 +1,4 @@
+
 // _ui.scss
 .icn-toggle {
     position: relative;
@@ -119,10 +120,14 @@ div.logo {
 /* ********************
     Avenue Plaza Page
 **********************/
-
-iframe {
+.main-modal {
+    min-width: 500px;
     margin: 0 auto;
-    max-width: 500px;
+}
+iframe {
+    border: 5px solid pink;
+    margin: 0 auto;
     @extend %centered;
 }
- 
+
+
