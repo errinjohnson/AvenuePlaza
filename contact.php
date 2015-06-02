@@ -7,9 +7,6 @@ $email_body ="";
 $email_body = $email_body . "Name: " . $name . "\n";
 $email_body = $email_body . "Email: " . $email . "\n";
 $email_body = $email_body . "Message: " . $message;
-echo $email_body;
-    var_dump("hello world");
-
 
 // TODO: Send Email
 header("Location: ./contact.php?status=thanks");
