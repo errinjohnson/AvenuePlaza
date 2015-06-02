@@ -183,9 +183,15 @@ div.logo {
     min-width: 500px;
     margin: 0 auto;
 }
-
+div#calendar {
+    margin: 25px auto;
+    min-width: 500px;
+    min-height: 500px;
+}
 iframe {
-    border: 5px solid blue;
+    min-width: 500px;
+    min-height: 300px;
+    border: 5px solid #eee;
     margin: 0 auto;
 }
 
@@ -196,6 +202,13 @@ iframe,
 footer,
 header {
     text-align: center;
+}
+.fi-anchor {
+    text-align: left;
+    color: firebrick;
+}
+table#paneltable {
+    background-color: dodgerblue ;
 }
 
 .srt {
