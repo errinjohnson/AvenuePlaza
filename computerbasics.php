@@ -4,14 +4,7 @@
 <?php $pageTitle="Course Modules" ; include( "inc/head.php"); ?>
 
 <body class="animsition">
-    <?php include( "inc/header.php"); ?>
-
-        <?php include( "inc/footer.php"); include( "inc/script.php"); ?>
-</body>
-
-<<<<<<< HEAD
-        </div>
-    </div>
+<?php include( "inc/header.php"); ?>
     <div>
          <!-- Begin Video Modal -->
     <div id="vidModal" class="reveal-modal" data-reveal>
@@ -34,9 +27,7 @@
     include("inc/footer.php");
     include("inc/script.php");
 ?>  
-</body> 
-=======
->>>>>>> 1f777fbf7c1c9ce80a84926dc7068d5ed46e49b0
+</body>
 </html>
 
 
