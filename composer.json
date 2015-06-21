@@ -1,0 +1,12 @@
+{
+    "name": "sporttrac/avenueplaza",
+    "authors": [
+        {
+            "name": "errinjohnson",
+            "email": "errin.johnson@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.14"
+    }
+}

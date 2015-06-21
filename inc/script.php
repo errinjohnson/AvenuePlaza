@@ -6,7 +6,7 @@
     <script src="../frameworks/js/foundation/foundation.topbar.js"></script>
     <script src="../frameworks/js/foundation/foundation.reveal.js"></script>
     <script src="../frameworks/animsition-master/dist/js/jquery.animsition.min.js"></script>
-    <script src="#s"></script>
+    <script src="#"></script>
 <script>
         $(document).foundation();
 </script>
