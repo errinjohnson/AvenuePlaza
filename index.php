@@ -21,6 +21,9 @@
 
 
 
+
+
+
 <?php $pageTitle="Avenue Plaza | Computer Course" ; include( "inc/head.php"); ?>
 
 <body class="animsition">
@@ -410,7 +413,9 @@
         </div>
     </div>
     <!-- End Content-->
-    <?php include( "inc/footer.php"); include( "inc/script.php"); ?>
+    <?php   include( "inc/footer.php");
+            include( "inc/script.php");
+    ?>
 
 </body>
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2015-06-21 01:15:48] name.WARNING: Foo [] []
 [2015-06-20 19:19:44] name.WARNING: Foo [] []
 [2015-06-20 19:20:04] name.WARNING: Foo [] []
@@ -34,3 +35,9 @@
 [2015-06-20 22:51:48] name.WARNING: Foo Two [] []
 [2015-06-20 22:58:17] name.WARNING: Foo Two [] []
 [2015-06-20 22:58:53] name.WARNING: Foo Two [] []
+=======
+[2015-06-21 03:50:05] name.WARNING: Foo [] []
+[2015-06-21 03:50:05] name.WARNING: Foo [] []
+[2015-06-21 03:51:29] name.WARNING: Foo two [] []
+[2015-06-21 03:51:29] name.WARNING: Foo two [] []
+>>>>>>> master

@@ -6,7 +6,11 @@
     <script src="../js/foundation/foundation.topbar.js"></script>
     <script src="../js/foundation/foundation.reveal.js"></script>
     <script src="../frameworks/animsition-master/dist/js/jquery.animsition.min.js"></script>
+<<<<<<< HEAD
     <script src="js/myJs.js"></script>
+=======
+    <script src="#"></script>
+>>>>>>> master
 <script>
         $(document).foundation();
 </script>
