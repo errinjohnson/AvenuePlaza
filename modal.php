@@ -1,39 +1,38 @@
 <div>
         <div id="reveal">
             <!-- Triggers the modals -->
-            <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Computer Basics Video&hellip;</a>
-            <a href="#" data-reveal-id="vid2Modal" class="radius button medium-6 columns">Internet Basics&hellip;</a>
-            <a href="#" data-reveal-id="OSModal" class="radius button medium-6 columns">Operating Systems&hellip;</a>
-            <a href="#" data-reveal-id="EmailModal" class="radius button medium-6 columns">Email Basics&hellip;</a>
-              <!-- Triggers the modals -->
-        <a href="#" data-reveal-id="firstModal" class="radius button">Modal in a modal&hellip;</a>
-        <a href="#" data-reveal-id="videoModal" class="radius button">Example Modal with Video&hellip;</a>
+            <a href="#" data-reveal-id="aboutModal" class="radius button medium-6 columns">About the Computer Basics Class&hellip;</a>
+            <a href="#" data-reveal-id="courseModal" class="radius button medium-6 columns">Course Syllabus Beginner&hellip;</a>
+            <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Tree House Video Demo&hellip;</a>
+            <a href="#" data-reveal-id="listPrintModal" class="radius button medium-6 columns">Supplies | Equip. List&hellip;</a>
+            <a href="#" data-reveal-id="extraModal" class="radius button">Modal in a modal&hellip;</a>
+            <a href="#" data-reveal-id="extra2Modal" class="radius button">Example Modal with Video&hellip;</a>
         </div>
     </div>
-    <div class="main-modal">
+    <div>
         <!-- Begin Video Modal -->
-        <div id="vidModal" class="reveal-modal" data-reveal>
+        <div id="aboutModal" class="reveal-modal" data-reveal>
             <h3>What is a computer?</h3>
             <div>
                 <iframe src="https://www.youtube.com/embed/7cXEOWAStq4?feature=player_embedded" allowfullscreen></iframe>
             </div>
             <a class="close-reveal-modal">&#215;</a>
         </div>
-        <div id="vid2Modal" class="reveal-modal" data-reveal>
+        <div id="courseModal" class="reveal-modal" data-reveal>
             <h3>Internet Basics</h3>
             <div>
                 <iframe src="https://www.youtube.com/embed/FxirRVJWUTs?feature=player_embedded" allowfullscreen></iframe>
             </div>
             <a class="close-reveal-modal">&#215;</a>
         </div>
-        <div id="OSModal" class="reveal-modal" data-reveal>
+        <div id="vidModal" class="reveal-modal" data-reveal>
             <h3>Operating Systems</h3>
             <div>
                 <iframe src="https://www.youtube.com/embed/pTdSs8kQqSA?feature=player_embedded" allowfullscreen></iframe>
             </div>
             <a class="close-reveal-modal">&#215;</a>
         </div>
-        <div id="EmailModal" class="reveal-modal" data-reveal>
+        <div id="listPrintModal" class="reveal-modal" data-reveal>
             <h3>Email Basics</h3>
             <div>
                 <iframe src="https://www.youtube.com/embed/pTdSs8kQqSA?feature=player_embedded" allowfullscreen></iframe>
@@ -56,8 +55,7 @@
             <!-- Reveal Modals end -->
         </div>
         <!-- Triggers the modals -->
-        <a href="#" data-reveal-id="firstModal" class="radius button">Modal in a modal&hellip;</a>
-        <a href="#" data-reveal-id="videoModal" class="radius button">Example Modal with Video&hellip;</a>
+
 
         <!-- Reveal Modals begin -->
         <div id="firstModal" class="reveal-modal" data-reveal aria-labelledby="firstModalTitle" aria-hidden="true" role="dialog">

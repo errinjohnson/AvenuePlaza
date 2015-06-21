@@ -42,10 +42,10 @@
     <div class="row panel">
         <div id="reveal">
             <!-- Triggers the modals -->
-            <a href="#" data-reveal-id="firstModal" class="radius button medium-6 columns">Computer Basics Class&hellip;</a>
+            <a href="#" data-reveal-id="firstModal" class="radius button medium-6 columns">About the Computer Basics Class&hellip;</a>
             <a href="#" data-reveal-id="courseModal" class="radius button medium-6 columns">Course Syllabus Beginner&hellip;</a>
             <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Tree House Video Demo&hellip;</a>
-            <a href="#" data-reveal-id="listPrint" class="radius button medium-6 columns">Course List&hellip;</a>
+            <a href="#" data-reveal-id="listPrint" class="radius button medium-6 columns">Supplies | Equip. List&hellip;</a>
 
         </div>
     </div>
@@ -404,9 +404,10 @@
 
     <!-- End Headline Content -->
     <!-- Content-->
-    <div class="row"></div>
-    <div id="calendar" class="panel">
-       <iframe src="https://www.google.com/calendar/embed?src=im5ftp0ur3oqd5bsp8sqqg2mf0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="row">
+        <div id="calendar" class="panel">
+           <iframe src="https://www.google.com/calendar/embed?src=im5ftp0ur3oqd5bsp8sqqg2mf0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
     <!-- End Content-->
     <?php include( "inc/footer.php"); include( "inc/script.php"); ?>
