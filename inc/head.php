@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../frameworks/foundation/css/foundation.css" />
     <link rel="stylesheet" href="../frameworks/foundation-icons/foundation-icons.css" />
     <script src="../frameworks/foundation/vendor/modernizr.js"></script>
-    <link rel="stylesheet" href="../frameworks/animsition-master/dist/css/animsition.min.css">
     <link rel="stylesheet" type="text/css" href="../frameworks/slick-1.5.0/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="../frameworks/slick-1.5.0/slick/slick-theme.css" />
     <link rel="stylesheet" href="myCss/application.css" />

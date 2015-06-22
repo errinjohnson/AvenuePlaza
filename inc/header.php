@@ -3,7 +3,7 @@
             <h3 class="right">"I believe if we could master improving, there would be no poverty" ~Errin</h3>
 
             <div class="logo">
-                <a href="img/Logo1.png"><img src="img/Logo1.png" alt="Alchemy Momentum's Logo">
+                <a href="../img/Logo1.png"><img src="../img/Logo1.png" alt="Alchemy Momentum's Logo">
                 </a>
             </div>
         </header>
@@ -22,34 +22,42 @@
             <section class="top-bar-section">
                 <!-- Right Nav Section -->
                 <ul class="right">
-                    <li><a href="../contact.php">About | Contact</a>
+                    <li><a href="../portfolio.php">Portfolio</a>
                     </li>
                     <li class="has-dropdown"> <a href="index.php">Avenue Plaza</a>
                         <ul class="dropdown">
                             <li><a href="computerbasics.php">Introduction: Computer Basics Course</a>
                             </li>
                             <li>
-                                <a href="#">Class Module</a>
+                                <a href="#">Microsoft Word</a>
                             </li>
                             <li>
-                                <a href="#">Class Module</a>
+                                <a href="#">Email</a>
                             </li>
                             <li>
-                                <a href="#">Class Module</a>
+                                <a href="#">Cell Phone | Smart Phone</a>
+                            </li>
+                            <li>
+                                <a href="#">Internet | Browser | Search Engines</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
                 <!-- Left Nav Section -->
                 <ul class="left">
-                    <li class="has-form">
-                        <div class="row collapse">
-                            <div class="medium-8 small-9 columns">
-                                <input type="search" placeholder="This website!"> </div>
-                            <div class="medium-4 small-3 columns"> <a href="#" class="button expand">Search</a> </div>
+                <li><a href="../contact.php">About | Contact Page</a>
+                </li>
+                <li class="has-form">
+                    <div class="row collapse">
+                        <div class="large-8 small-9 columns">
+                            <input type="text" placeholder="Find Stuff">
                         </div>
-                    </li>
-                </ul>
+                        <div class="large-4 small-3 columns">
+                            <a href="#" class="alert button expand">Search</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
             </section>
         </nav>
     </div>

@@ -8,7 +8,7 @@
             <a href="#" data-reveal-id="extraModal" class="radius button">Modal in a modal&hellip;</a>
             <a href="#" data-reveal-id="extra2Modal" class="radius button">Example Modal with Video&hellip;</a>
         </div>
-    </div>
+</div>
     <div>
         <!-- Begin Video Modal -->
         <div id="aboutModal" class="reveal-modal" data-reveal>

@@ -1,32 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<?php
-    require 'vendor/autoload.php';
-    date_default_timezone_set ( 'America/New_York');
-
-    use Monolog\Logger;
-    use Monolog\Handler\StreamHandler;
-
-    $log = new Logger( 'name');
-    $log->pushHandler(new StreamHandler('app.log', Monolog\Logger::WARNING));
-
-    $log->addWarning('Foo Two');
-
- //#36246644728248 - online calendar training schedule. -->
- //#33053744815478  - create simple php website. -->
-
-?>
-
-
-
-
-
-
-
-
 <?php $pageTitle="Avenue Plaza | Computer Course" ; include( "inc/head.php"); ?>
 
-<body class="animsition">
+<body>
     <?php include( "inc/header.php"); ?>
     <!-- Headline Content -->
     <div class="row">
@@ -47,7 +23,7 @@
             <!-- Triggers the modals -->
             <a href="#" data-reveal-id="firstModal" class="radius button medium-6 columns">About the Computer Basics Class&hellip;</a>
             <a href="#" data-reveal-id="courseModal" class="radius button medium-6 columns">Course Syllabus Beginner&hellip;</a>
-            <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Tree House Video Demo&hellip;</a>
+            <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">GCF Learn Free&hellip;</a>
             <a href="#" data-reveal-id="listPrint" class="radius button medium-6 columns">Supplies | Equip. List&hellip;</a>
 
         </div>
@@ -122,7 +98,7 @@
     "hardware"=>"Hardware Basics",
     "topics"=> "Mouse, Keyboard, PC | Notebook, Display",
     "level" => "beginner",
-    "medium" => "in-class video | handouts",
+    "medium" => "in-class video | handouts | class instructions",
     "equipment"=> "in-class computers",
     "classSize" => 2,
     "supplies" => "pens, paper and folders"
@@ -214,7 +190,15 @@
     <div id="course_2_Modal" class="reveal-modal" data-reveal aria-labelledby="courseModallTitle2" aria-hidden="true" role="dialog">
         <i class="fi-anchor">for next modal syllabus.</i>
         <h2 id="courseModalTitle2">Software Basics</h2>
-                <?php $course=[ "software"=> "Windows 7 Basics", "level" => "beginner", "medium" => "in-class video | handouts", "topics"=>"What is an operating system?, Security and Maintenance Finding Your Files with Search and Libraries", "equipment" => "in-class computers", "classSize" => 2, "supplies" => "pens, paper and folders" ]; ?>
+                <?php $course=[
+                    "software"=> "Windows 7 Basics",
+                    "level" => "beginner",
+                    "medium" => "in-class video | handouts | class instruction",
+                    "topics"=>"What is an operating system?, Security and Maintenance Finding Your Files with Search and Libraries",
+                    "equipment" => "in-class computers",
+                    "classSize" => 2,
+                    "supplies" => "pens, paper and folders" ];
+                ?>
         <div class="row wrapper">
             <h2><?php echo $course["software"];?></h2>
             <h3>We will be covering the following topics:</h3>
@@ -263,7 +247,14 @@
         <h2 id="courseModalTitle3">Software Basics</h2>
         <p class="lead"><i class="fi-anchor">for next modal syllabus.</i>
         </p>
-        <?php $course=[ "hardware"=> "Mouse, Keyboard, PC | Notebook, Display", "level" => "beginner", "medium" => "in-class video | handouts", "equipment" => "in-class computers", "classSize" => 2, "supplies" => "pens, paper and folders" ]; ?>
+        <?php $course=[
+            "hardware"=> "Mouse, Keyboard, PC | Notebook, Display",
+            "level" => "beginner",
+            "medium" => "in-class video | handouts | class instruction",
+            "equipment" => "in-class computers",
+            "classSize" => 2,
+            "supplies" => "pens, paper and folders" ];
+        ?>
         <div class="row">
             <h3>We will be covering the following topics:</h3>
             <h3><?php echo $course["hardware"]; ?></h3>
@@ -311,7 +302,14 @@
         <h2 id="courseModalTitle4">Software Basics</h2>
         <p class="lead"><i class="fi-anchor">for next modal syllabus.</i>
         </p>
-        <?php $course=[ "hardware"=> "Mouse, Keyboard, PC | Notebook, Display", "level" => "beginner", "medium" => "in-class video | handouts", "equipment" => "in-class computers", "classSize" => 2, "supplies" => "pens, paper and folders" ]; ?>
+        <?php $course=[
+            "hardware"=> "Mouse, Keyboard, PC | Notebook, Display",
+            "level" => "beginner",
+            "medium" => "in-class video | handouts | class instruction",
+            "equipment" => "in-class computers",
+            "classSize" => 2,
+            "supplies" => "pens, paper and folders" ];
+        ?>
         <div class="row wrapper">
             <h3>We will be covering the following topics:</h3>
             <h3><?php echo $course["hardware"]; ?></h3>
@@ -397,9 +395,9 @@
 
     <!-- Begin Video Modal -->
     <div id="vidModal" class="reveal-modal" data-reveal>
-        <h3>Learn how to make this app</h3>
+        <h3>What is a computer!</h3>
         <div class="flex-video widescreen">
-            <iframe src="http://www.youtube.com/embed/hTf0CgRC1_Q" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/7cXEOWAStq4?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
         </div>
         <a class="close-reveal-modal">&#215;</a>
     </div>

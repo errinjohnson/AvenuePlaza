@@ -72,3 +72,19 @@ $brook_trout = new Trout("Trout","Delicious","14 pounds 8 ounces","Brook");
       //  });
     ?>
 >>>>>>> master
+<?php
+    require 'vendor/autoload.php';
+    date_default_timezone_set ( 'America/New_York');
+
+    use Monolog\Logger;
+    use Monolog\Handler\StreamHandler;
+
+    $log = new Logger( 'name');
+    $log->pushHandler(new StreamHandler('app.log', Monolog\Logger::WARNING));
+
+    $log->addWarning('Foo Two');
+
+ //#36246644728248 - online calendar training schedule. -->
+ //#33053744815478  - create simple php website. -->
+
+?>

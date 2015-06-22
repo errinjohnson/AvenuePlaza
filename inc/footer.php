@@ -7,7 +7,7 @@
                         </h4>
                     </li>
                     <li>
-                        <a href="http://www.juiceplus.com/+ej70269"><img src="img/jplogo.jpg" alt="Juice Plus +" />
+                        <a href="http://www.juiceplus.com/+ej70269"><img src="../img/jplogo.jpg" alt="Juice Plus +" />
                             <h4>Juice Plus + ® Provides the nutritional essence of 17 different fruits, vegetables and grains in a convenient capsule form. Click here to learn more.</h4>
                         </a>
                     </li>

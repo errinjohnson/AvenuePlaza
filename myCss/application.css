@@ -18,7 +18,7 @@ ul li {
 }
 
 #fifthModal {
-    background-image: url(../img/firefox.jpg);
+    background-image: url("../img/firefox.jpg");
     background-position: bottom;
     background-size: auto;
     background-repeat: no-repeat;
@@ -226,7 +226,7 @@ header {
     margin-top: 2.1875em;
     min-height: auto;
     border-radius: 1.25em;
-    background: url(../img/MachuPicchi2.jpg);
+    background: url("../img/MachuPicchi2.jpg");
     background-size: cover;
     -webkit-filter: drop-shadow(10px 10px 10px 6px #333);
     filter: drop-shadow(10px 10px 10px 6px #333);
