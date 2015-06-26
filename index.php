@@ -1,6 +1,14 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<?php $pageTitle="Connecting the Dots | Computer Course" ; include( "inc/head.php"); ?>
+<?php
+    require 'vendor/autoload.php';
+    date_default_timezone_set('America/New_York');
+    $log = new Monolog\Logger('name');
+$log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
+
+$log->addWarning('Foo Two');
+
+$pageTitle="Connecting the Dots | Computer Course" ; include( "inc/head.php"); ?>
 
 <body>
     <?php include( "inc/header.php"); ?>
