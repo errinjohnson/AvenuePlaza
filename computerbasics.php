@@ -5,8 +5,7 @@
 
 <body>
 <?php include( "inc/header.php"); ?>
-    <div>
-         <div class="row panel">
+     <div class="row panel">
         <div id="reveal">
             <!-- Triggers the modals -->
             <a href="#" data-reveal-id="vidModal" class="radius button medium-6 columns">Mouse Basics&hellip;</a>
@@ -17,7 +16,8 @@
         </div>
     </div>
          <!-- Begin Video Modal -->
-    <div id="vidModal" class="reveal-modal" data-reveal aria-labelledby="firstModalTitle" aria-hidden="true" role="dialog">
+    <div class="main-modal">
+    <div id="vidModal" class="reveal-modal row" data-reveal aria-labelledby="firstModalTitle" aria-hidden="true" role="dialog">
         <h3>Mouse Tutorial - Play</h3>
         <div class="flex-video widescreen">
             <iframe src="http://www.gcflearnfree.org/computers/mousetutorial/play" frameborder="0" allowfullscreen></iframe>

@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<?php $pageTitle="Avenue Plaza | Computer Course" ; include( "inc/head.php"); ?>
+<?php $pageTitle="Connecting the Dots | Computer Course" ; include( "inc/head.php"); ?>
 
 <body>
     <?php include( "inc/header.php"); ?>
@@ -8,8 +8,9 @@
     <div class="row">
         <div class="panel">
             <div>
-                <h1>"Welcome, Avenue Plaza, Residents!"</h1>
-                <p class="lead">Class is now in session. What you can except in the next few weeks is inspired thought and creative works.</p>
+                <h1>"Welcome, to the Computer Basics Course"</h1>
+                <p class="lead">
+                    When Class is in session you can except inspired thought and creative works.</p>
                 <p>In the Computer Basic Program you will need to learn how to register online your lfpl.org card. Obtain access to online educational videos and homework. Even though we will meet up in person, you will still need to go home and practice, practice, practice. </p>
                 <p>You will go home with challenges that are entertaining and creative. Something you can use in your everyday life. Something you have been wanting to do but never really knew where to start.</p>
             </div>
@@ -40,22 +41,22 @@
         <p><a href="#" data-reveal-id="secondModal" class="secondary button"><i class="fi-anchor"></i>Software Basics</a>
         </p> <a class="close-reveal-modal" aria-label="Close">&#215;</a>
     </div>
-    <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+    <div id="secondModal" class="reveal-modal row" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
         <h2 id="secondModalTitle">Software Basics.</h2>
         <i class="fi-social-windows"></i>
         <p class="lead">Most software applications have many similarities, such as, email and MS Word. Learn how to create your own gmail or yahoo account and add an email manager so you can create or modify an email offline.</p>
         <p>Writing an email is similar to creating a MS Word document. It has the same basic foundations, just some different commands and features, but you will find that understanding the similarities will enable you to learn a new software application a lot quicker and it will no longer be intimidating. </p>
         <p><a href="#" data-reveal-id="thirdModal" class="secondary button"><i class="fi-web"></i>Internet Basics</a>
-        </p> <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a></p>
     </div>
-    <div id="thirdModal" class="reveal-modal" data-reveal aria-labelledby="thirdModalTitle" aria-hidden="true" role="dialog">
+    <div id="thirdModal" class="reveal-modal row" data-reveal aria-labelledby="thirdModalTitle" aria-hidden="true" role="dialog">
         <h2 id="thirdModalTitle">Internet Basics.</h2>
         <i class="fi-mobile-signal"></i>
         <p class="lead">”Why! Why! don't i have access to the internet. Why is nothing happening, screen just froze up on me. Why is this computer so darn slow when browsing threw the internet, just trying to find a good song to buy or download. How do you download a song? “</p>
         <p>”I was told to reset my modem or was it the router. Whats the difference and does it really matter anyway."
             <br>Kinda does...did you know...most connection problems can be solved with a simple change to the router and or modem. Reset! Did you know that wifi is normally located above your computer or other gadgets because on how wifi works. Location, Location, Location</p>
         <p><a href="#" data-reveal-id="fourthModal" class="secondary button">Computer Maintenance</a>
-        </p> <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a></p>
     </div>
     <div id="fourthModal" class="reveal-modal" data-reveal aria-labelledby="fourthModalTitle" aria-hidden="true" role="dialog">
         <h2 id="fourthModalTitle"><i class="fi-wrench"></i>Computer Maintenance and Updates.</h2>
@@ -389,7 +390,7 @@
         </ul>
 
         <p><a href="#" data-reveal-id="extraModal" class="secondary button"><i class="fi-anchor"></i></a>
-            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a></p>
     </div>
     <!-- End volunteer Modal-->
 

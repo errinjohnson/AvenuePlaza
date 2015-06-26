@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 class Education {
 
@@ -55,7 +54,6 @@ $brook_trout = new Trout("Trout","Delicious","14 pounds 8 ounces","Brook");
 ?>
 <?php echo $brook_trout->getInfo(); ?>
 
-=======
 //test html for wiki pages. add content
 <?php
     //require 'vendor/autoload.php';
@@ -71,7 +69,6 @@ $brook_trout = new Trout("Trout","Delicious","14 pounds 8 ounces","Brook");
     //echo "Hello, $name";
       //  });
     ?>
->>>>>>> master
 <?php
     require 'vendor/autoload.php';
     date_default_timezone_set ( 'America/New_York');

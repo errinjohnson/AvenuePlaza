@@ -25,6 +25,7 @@ ul li {
 }
 
 .reveal-modal {
+    min-width: 1200px;
     background-color: #FFFDF4;
     color: #080110;
 }
@@ -180,7 +181,8 @@ div.logo {
 **********************/
 
 .main-modal {
-    min-width: 500px;
+    min-width: 1300px;
+    height: 1000px;
     margin: 0 auto;
 }
 div#calendar {
@@ -189,8 +191,8 @@ div#calendar {
     min-height: 500px;
 }
 iframe {
-    min-width: 500px;
-    min-height: 300px;
+    width: 80%;
+    height: 80%;
     border: 5px solid #eee;
     margin: 0 auto;
 }

@@ -24,7 +24,7 @@
                 <ul class="right">
                     <li><a href="../portfolio.php">Portfolio</a>
                     </li>
-                    <li class="has-dropdown"> <a href="index.php">Avenue Plaza</a>
+                    <li class="has-dropdown"> <a href="index.php">Computer Basics</a>
                         <ul class="dropdown">
                             <li><a href="computerbasics.php">Introduction: Computer Basics Course</a>
                             </li>
