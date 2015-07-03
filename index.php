@@ -25,7 +25,7 @@ $pageTitle="Connecting the Dots | Computer Course" ; include( "inc/head.php"); ?
             <div>
                 <h3>Disclaimer:</h3>This course is meant to teach participants the basics of hardware, software, and the internet. Understanding how they can integrate their knowledge into learning a new program. This course is a hands on, creative and project oriented to be used in ones daily lives; empower people to move forward in their own lives. I hope this course will be a stepping stone to inspire one to further their exploration of technology and how it can benefit their lives in a meaningful way.</div>
 
-        </div>
+        </div> 
     </div>
     <div class="row panel">
         <div id="reveal">
